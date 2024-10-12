@@ -94,6 +94,21 @@ sudo apt-get update
 
 sudo apt-get install certbot python3-certbot-nginx
 
+If above steps fails :
+Jenkins follow steps for ssl till certbot step.6 from github 
+ 
+AWS -> route 53 -> hosted zone -> your domain =>
+delete if any A type record is present.
+
+Create Record
+Record Name : Jenkins
+value : Ip of jenkins server
+Record tye : A
+-> till the status comes insync wait
+
+jenkins.domain.com
+jenkins.weinfo.xyz:8080
+
 7. Obtain an SSL certificate for your Jenkins domain name using Certbot:
 
 sudo certbot --nginx -d jenkins.example.com
