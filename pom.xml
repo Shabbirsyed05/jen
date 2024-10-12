@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://maven.apache.org/POM/4.0.0"
@@ -556,4 +556,4 @@
   </pluginRepositories>
 
 </project>
->>>>>>> a6519bc435d1c54f2ab0bd3fc1b9135eb2651920
+
